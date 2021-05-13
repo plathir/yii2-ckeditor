@@ -9,10 +9,10 @@ namespace mihaildev\ckeditor;
 use yii\web\AssetBundle;
 
 class Assets extends AssetBundle{
-	public $sourcePath = '@vendor/ckeditor/ckeditor';
+//	public $sourcePath = '@vendor/ckeditor/ckeditor';
+        public $sourcePath = '@mihaildev/ckeditor/my_accets';
 
     public $js = [
-        'ckeditor.js',
 		'js.js',
     ];
 
