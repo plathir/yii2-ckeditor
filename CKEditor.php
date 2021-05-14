@@ -121,6 +121,7 @@ class CKEditor extends InputWidget{
     public function run()
     {
         Assets::register($this->getView());
+        MyAssets::register($this->getView());
 
         echo Html::beginTag('div', $this->containerOptions);
         if ($this->hasModel()) {

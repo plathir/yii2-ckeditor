@@ -8,9 +8,8 @@ namespace mihaildev\ckeditor;
 
 use yii\web\AssetBundle;
 
-class Assets extends AssetBundle{
-//	public $sourcePath = '@vendor/ckeditor/ckeditor';
-        public $sourcePath = '@mihaildev/ckeditor/my_accets';
+class MyAssets extends AssetBundle{
+        public $sourcePath = '@mihaildev/ckeditor/my_assets';
 
     public $js = [
 		'js.js',
