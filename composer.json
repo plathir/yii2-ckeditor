@@ -19,7 +19,7 @@
     },
     "require": {
         "yiisoft/yii2": "*",
-        "ckeditor/ckeditor": "4.23"        
+        "ckeditor/ckeditor": "4.22"        
     },
 	"extra": {
 		"asset-installer-paths": {
